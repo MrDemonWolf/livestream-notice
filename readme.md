@@ -1,10 +1,7 @@
 # [Express Blog](https://github.com/MrDemonWolf/livestream-notice)
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MrDemonWolf/livestream-noticer/master/LICENSE)
-[![Build Status](https://travis-ci.org/MrDemonWolf/livestream-notice.svg?branch=dev)](https://travis-ci.org/MrDemonWolf/livestream-notice)
-[![dependencies Status](https://david-dm.org/MrDemonWolf/livestream-notice/status.svg)](https://david-dm.org/MrDemonWolf/livestream-notice)
-[![devDependencies Status](https://david-dm.org/MrDemonWolf/livestream-notice/dev-status.svg)](https://david-dm.org/MrDemonWolf/livestream-notice?type=dev)
+[![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://raw.githubusercontent.com/MrDemonWolf/livestream-noticer/master/LICENSE)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/mrdemonwolf/livestream-notice.svg)](http://isitmaintained.com/project/mrdemonwolf/livestream-notice "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/mrdemonwolf/livestream-notice.svg)](http://isitmaintained.com/project/mrdemonwolf/livestream-notice "Percentage of issues still open")
 
