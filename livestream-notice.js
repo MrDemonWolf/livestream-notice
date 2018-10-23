@@ -129,11 +129,12 @@ if (typeof jQuery === 'undefined') {
         jQuery(document).ready(function livestreamNotice() {
             jQuery.getJSON('https://api.twitch.tv/kraken/streams/' + livestreamNoticeSettings.channelname + '?client_id=' + livestreamNoticeSettings.twitchclientid + '&callback=?', function (data) {
                 if (data.stream) {
-                    jQuery.notify(`<a href="https://www.twitch.tv/${livestreamNoticeSettings.channelname}">Hey, did you know I am live streaming right now?</span></a>`, {
+                    jQuery.notify(`<a href="https://www.twitch.tv/${livestreamNoticeSettings.channelname}">${livestreamNoticeSettings.noticemessage}<span></a>`, {
                         delay: 30000, class: 'livestreamNotice', align: "right", verticalAlign: "bottom", close: true
                     });
                 }
             })
         });
     });
+    console.log(livestreamNoticeSettings.noticemessage)
 })(jQuery);

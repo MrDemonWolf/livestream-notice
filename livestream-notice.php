@@ -4,7 +4,7 @@
 Plugin Name: Livestream Notice
 Plugin URI: https://wordpress.org/plugins/livestream-notice
 Description: Displays a notify type message of twitch channel name when they are live. Great if you're a streamer with a WordPress Blog and or if you're a programmer who wants to share you're live.
-Version: 1.1.2
+Version: 1.2.0
 Author: MrDemonWolf
 Author URI: http://www.mrdemonwolf.me
 License: GPLv2
@@ -15,11 +15,10 @@ class livestreamNotice
 
     private $version = '1.1.2';
     private $pluginPrefix = 'livestreamNotice';
+    private $noticemessage = "Hey, did you know I am live streaming right now?";
 
     public function __construct()
     {
-        load_plugin_textdomain('livestreamNotice', false, dirname(plugin_basename(__FILE__)) . '/language/');
-
         if (is_admin()) {
             $this->backendInit();
         }
@@ -62,6 +61,7 @@ class livestreamNotice
     {
         register_setting($this->pluginPrefix . '-settings-group', $this->pluginPrefix . '-channelname');
         register_setting($this->pluginPrefix . '-settings-group', $this->pluginPrefix . '-twitchclientid');
+        register_setting($this->pluginPrefix . '-settings-group', $this->pluginPrefix . '-noticemessage');
 
     }
 
@@ -98,7 +98,7 @@ class livestreamNotice
         $params = array(
             'channelname' => get_option($this->pluginPrefix . '-channelname', $this->channelname),
             'twitchclientid' => get_option($this->pluginPrefix . '-twitchclientid', $this->twitchclientid),
-
+            'noticemessage' => get_option($this->pluginPrefix . '-noticemessage', $this->noticemessage)
         );
 
         wp_localize_script($this->pluginPrefix, 'livestreamNoticeSettings', $params);

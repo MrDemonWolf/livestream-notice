@@ -22,6 +22,8 @@ Download the lastest Plugin version from [here]()
 ![Preview](https://ps.w.org/livestream-notice/assets/screenshot-2.jpg?rev=1945066 "Preview")
 
 ### Changelog
+1.2.0
+* There is now a setting to change the notice text.
 
 1.1.3
 * Found a few more grammar issues which was in the description.

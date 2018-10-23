@@ -32,6 +32,9 @@ e.g.
 
 == Changelog ==
 
+= 1.2.0 =
+* There is now a setting to change the notice text.
+
 = 1.1.3 =
 * Found a few more grammar issues which was in the description.
 
