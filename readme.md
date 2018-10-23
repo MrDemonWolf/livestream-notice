@@ -1,4 +1,4 @@
-# [Express Blog](https://github.com/MrDemonWolf/livestream-notice)
+# [Livestream Notice](https://github.com/MrDemonWolf/livestream-notice)
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://raw.githubusercontent.com/MrDemonWolf/livestream-noticer/master/LICENSE)
@@ -42,7 +42,7 @@ Download the lastest Plugin version from [here]()
 
 
 ## Custom Builds
-
+`
 You can hire me to create a custom build of any template, or create something from scratch using Bootstrap. For more information,  **[contact me](https://www.mrdemonwolf.me/about)**.
 
 ## About
