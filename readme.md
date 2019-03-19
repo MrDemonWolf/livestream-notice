@@ -4,6 +4,9 @@
 [![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://raw.githubusercontent.com/MrDemonWolf/livestream-noticer/master/LICENSE)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/mrdemonwolf/livestream-notice.svg)](http://isitmaintained.com/project/mrdemonwolf/livestream-notice "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/mrdemonwolf/livestream-notice.svg)](http://isitmaintained.com/project/mrdemonwolf/livestream-notice "Percentage of issues still open")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/mrdemonwolf/livestream-notice.svg)](http://isitmaintained.com/project/mrdemonwolf/livestream-notice "Percentage of issues still open")
+![Wordpress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/livestream-notice.svg)
+![GitHub Releases](https://img.shields.io/github/downloads/nathanhenniges/livestream-notice/latest/total.svg)
 
 ## Download and Installation
 Download the lastest Plugin version from [here]()
@@ -55,5 +58,5 @@ Am a Web Developer & Designer who has a passion for creating unique user experie
 
 ## Copyright and License
 
-Copyright 2018 MrDemonWolf. Code released under the [GPL](https://github.com/MrDemonWolf/livestream-notice/blob/master/LICENSE.md) license.
+Copyright 2018 MrDemonWolf. Code released under the [GPL](https://github.com/nathanhenniges/livestream-notice/blob/master/LICENSE.md) license.
 
