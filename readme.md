@@ -54,7 +54,7 @@ Am a Web Developer & Designer who has a passion for creating unique user experie
 
 * https://www.mrdemonwolf.me
 * https://twitter.com/mrdemonwolf
-* https://github.com/mrdemonwolf
+* https://github.com/nathanhenniges
 
 ## Copyright and License
 
