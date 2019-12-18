@@ -1,8 +1,8 @@
 === Livestream Notice ===
 Tags: twitch,notify, notices,livestream
-Requires at least: 4.6
-Tested up to: 4.9.8
-Stable tag: 4.9.8
+Requires at least: 5.0
+Tested up to: 5.3.1
+Stable tag: 5.3.1
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
